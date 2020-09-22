@@ -282,7 +282,7 @@ export default defineConfig({
             },
             {
               name: 'echart',
-              icon: 'echart',
+              icon: 'smile',
               path: '/echart',
               routes: [
                 {
@@ -290,6 +290,32 @@ export default defineConfig({
                   icon: 'smile',
                   path: '/echart/hello',
                   component: './echart/hello',
+                },
+              ],
+            },
+            // antd测试
+            {
+              name: 'antd',
+              icon: 'table',
+              path: '/antd',
+              routes: [
+                {
+                  name: 'Button',
+                  icon: 'smile',
+                  path: '/antd/button',
+                  component: './antd/button',
+                },
+                {
+                  name: 'Breadcrumb',
+                  icon: 'smile',
+                  path: '/antd/breadcrumb',
+                  component: './antd/breadcrumb',
+                },
+                {
+                  name: 'Pagination',
+                  icon: 'smile',
+                  path: '/antd/pagination',
+                  component: './antd/pagination',
                 },
               ],
             },
